@@ -100,8 +100,8 @@ typedef enum { false, true } bool;
 
 #define P2_10       0.0009765625 /* 2^-10 */
 
-#define MAX_CPSTD_VALID 5       /* max std-dev for valid carrier-phase  */
-#define CPSTD_SLIP 15           /* std-dev threshold for slip */
+#define MAX_CPSTD_VALID 20      /* max std-dev for valid carrier-phase  */
+#define CPSTD_SLIP 50           /* std-dev threshold for slip */
 
 #define ROUND(x)    (int)floor((x)+0.5)
 
